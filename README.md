@@ -8,7 +8,6 @@ Feel free to use it for your projects.
 
 ## Example
 
-	```
 	[{ 
 		"name": "Hydro­gen",
 		"number": 1,
@@ -26,9 +25,22 @@ Feel free to use it for your projects.
 		"number": 4,
 		"symbol": "Be"
 	},
-		…
+	…
 	]
-	``
+
+## Data
+
+Property|Description
+:-------|:-------
+name	|English name of the element (IUPAC)
+number	|Atomic number
+symbol	|Symbol
+mass	|Atomic mass in u
+density	|Density in kilogram per cubic metre (km/m^3 at 20°C)
+melting |Melting point in °C
+boiling |Boiling point in °C
+discovery |Year of discovery, null if unknown
+discoveredby |Discovered by, null if unknown
 
 ## License
 
